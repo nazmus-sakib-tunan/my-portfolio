@@ -1,15 +1,16 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter} from "next/font/google";
 import "./globals.css";
+import LeftSideBar from "./components/LeftSideBar";
+import RightMenu from "./components/RightMenu";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+
+
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+
 
 export const metadata = {
   title: "Create Next App",
@@ -20,9 +21,33 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      
+     
+      className={`${inter.className} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className=" text-white bg-black">
+        
+        {/* Container */}
+        <div className="min-h-screen flex flex-col md:flex-row">
+
+          {/* LEFT SIDEBAR */}
+          <aside className="w-full md:w-[25%] md:fixed md:top-4 md:bottom-4 md:left-4 overflow-hidden">
+            <LeftSideBar />
+          </aside>
+
+          {/* MAIN CONTENT */}
+          <main className="w-full md:ml-[25%] md:mr-[15%] md:w-[60%] px-4 py-4">
+            {children}
+          </main>
+
+          {/* RIGHT MENU */}
+          <aside className="w-full md:w-[15%] md:fixed md:top-4 md:bottom-4 md:right-4  rounded-xl overflow-hidden">
+            <RightMenu />
+          </aside>
+
+        </div>
+
+      </body>
     </html>
   );
 }
