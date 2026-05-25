@@ -23,7 +23,7 @@ const Home = () => {
         <p className='text-2xl text-gray-400 font-light leading-relaxed'> A Digital Designer and Web Developer based in Los Angeles. I aim is to transform the tricky web flows
           andovercrowded designs to elegant website solutions!</p>
         
-        <div className='flex mt-10  gap-5'>  
+        <div className='flex flex-col mt-10  gap-5 md:flex-row '>  
           <button className='btn  bg-linear-to-r from-yellow-300 via-yellow-400 to-orange-500
                 text-black font-bold
                 shadow-[0_0_25px_rgba(255,180,0,0.8)]
