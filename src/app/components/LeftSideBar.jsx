@@ -4,7 +4,7 @@ import React from 'react';
 const LeftSideBar = () => {
   return (
     <div className='h-full flex flex-col justify-center items-center mt-10 sm:mt-0 '>
-      <div className="bg-transparent relative w-full max-w-80 h-full rounded-3xl 
+      <div className="bg-transparent relative w-full max-w-100 md:max-w-80 h-full rounded-3xl 
         border border-white/20
         backdrop-blur-xl
         shadow-[0_8px_32px_0_rgba(0,0,0,0.37)]

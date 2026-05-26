@@ -20,8 +20,7 @@ const Home = () => {
         <h1 className='text-3xl md:text-5xl my-8 font-bold  bg-linear-to-b from-yellow-300 via-yellow-400 to-yellow-100 bg-clip-text text-transparent leading-relaxed'>
           Digital Innovation
         </h1> 
-        <p className='text-xl md:text-2xl text-gray-400 font-light leading-relaxed'> A Digital Designer and Web Developer based in Los Angeles. I aim is to transform the tricky web flows
-          andovercrowded designs to elegant website solutions!</p>
+        <p className='text-xl md:text-2xl text-gray-400 font-light leading-relaxed'> A a creative Frontend Web Developer passionate about crafting modern, responsive, and user-focused web experiences. I specialize in JavaScript, React, Next.js, and Tailwind CSS, transforming complex ideas into clean, interactive, and elegant digital solutions. My goal is to build websites that not only look visually impressive but also feel smooth, fast, and intuitive for every user!</p>
         
         <div className='flex flex-col mt-10  gap-5 md:flex-row '>  
           <button className='btn  bg-linear-to-r from-yellow-300 via-yellow-400 to-orange-500
