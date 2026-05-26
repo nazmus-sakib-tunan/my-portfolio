@@ -13,14 +13,14 @@ const Home = () => {
       </div>
 
       <div>
-        <h1 className='text-7xl font-semibold bg-linear-to-b from-white via-gray-200 to-gray-600 bg-clip-text text-transparent leading-relaxed '>Helping Businesses
+        <h1 className='text-4xl font-semibold bg-linear-to-b from-white via-gray-200 to-gray-600 bg-clip-text text-transparent leading-relaxed  md:text-7xl'>Helping Businesses
           
           Grow Through</h1>
         
-        <h1 className='text-5xl my-8 font-bold  bg-linear-to-b from-yellow-300 via-yellow-400 to-yellow-100 bg-clip-text text-transparent leading-relaxed'>
+        <h1 className='text-3xl md:text-5xl my-8 font-bold  bg-linear-to-b from-yellow-300 via-yellow-400 to-yellow-100 bg-clip-text text-transparent leading-relaxed'>
           Digital Innovation
-        </h1>
-        <p className='text-2xl text-gray-400 font-light leading-relaxed'> A Digital Designer and Web Developer based in Los Angeles. I aim is to transform the tricky web flows
+        </h1> 
+        <p className='text-xl md:text-2xl text-gray-400 font-light leading-relaxed'> A Digital Designer and Web Developer based in Los Angeles. I aim is to transform the tricky web flows
           andovercrowded designs to elegant website solutions!</p>
         
         <div className='flex flex-col mt-10  gap-5 md:flex-row '>  
